@@ -1,0 +1,22 @@
+# Ignore R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore output artifacts if needed
+/output/results/*.txt
+/output/figures/*.png
+
+# Ignore raw sensitive data if you want (optional)
+# Uncomment if you do not wish to upload raw datasets
+# /data/raw/heart_disease.csv
