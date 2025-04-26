@@ -34,18 +34,30 @@ The dataset includes 1,069 U.S. counties with 23 features, covering health behav
 - Predictive models reveal strong links between health behaviors and heart disease mortality
 
 ## Project Tree
+
+```
 heart-disease-data-analysis/
-├── data/
-│   ├── processed/
-│   └── raw/
-├── output/
-│   ├── figures/
-│   └── results/
-├── scripts/
-│   └── utilities/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+├── data/
+│   ├── README.md
+│   ├── processed/
+│   └── raw/
+├── output/
+│   ├── README.md
+│   ├── figures/
+│   └── results/
+└── scripts/
+    ├── README.md
+    ├── 0_data_integration.R
+    ├── 1_missing_value_analysis.R
+    ├── 2_analysis.R
+    └── utilities/
+        └── confusion_function.R
+```
+
+## 📂 Project Tree
 ---
 
 **License**: MIT License © Winston Wang
