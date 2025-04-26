@@ -57,7 +57,6 @@ heart-disease-data-analysis/
         └── confusion_function.R
 ```
 
-## 📂 Project Tree
 ---
 
 **License**: MIT License © Winston Wang
