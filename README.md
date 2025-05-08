@@ -2,6 +2,8 @@
 
 This project explores how demographic, economic, and health-related indicators predict heart disease mortality across U.S. counties. Combining statistical analysis and machine learning, it identifies key health and economic factors that contribute to regional differences.
 
+🌐 [View Project Page](https://winston-wang.com/portfolio/heart-disease-data-analysis/)
+
 ## Project Structure
 
 - `data/` — Raw and processed datasets

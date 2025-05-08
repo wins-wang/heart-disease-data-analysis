@@ -1,0 +1,41 @@
+
+Heart Disease Mortality Prediction Project - Model Summary
+===========================================================
+
+Dataset:
+---------
+- 1,069 U.S. counties
+- 23 features (health behavior, economic indicators, demographics, regional classifications)
+- Data sources: USDA, CDC, Census Population Estimates, Bureau of Labor Statistics
+
+Data Preprocessing:
+--------------------
+- Merged datasets, handled missing values (~66% rows removed)
+- Feature transformations: log(x+1) and square root transformations applied
+
+Modeling:
+---------
+1. LASSO Regression
+    - Cross-validated RMSE (test set): 25.2
+    - Selected key predictors: obesity, smoking, diabetes, low birthweight, physical inactivity
+
+2. Principal Component Analysis (PCA)
+    - Retained 4 principal components
+    - Captured ~70.7% of total variance
+
+3. Factor Analysis
+    - Extracted latent factors related to health conditions and economic stress
+    - Variables with >90% correlation removed prior to analysis
+
+4. Linear Discriminant Analysis (LDA)
+    - Area_Rucc classification accuracy: 73.2%
+    - Economic Typology classification accuracy: 63.7%
+    - Urban Influence classification accuracy: 60.2%
+    - Confusion matrix created for Area_Rucc
+
+Key Insights:
+--------------
+- Health behaviors (obesity, smoking, diabetes) strongly predict heart disease mortality
+- Urban-rural distinctions and economic typologies impact regional health outcomes
+- Predictive modeling can support public health resource targeting and policy decisions
+
